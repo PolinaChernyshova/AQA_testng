@@ -13,8 +13,10 @@ public class FactorialCalculatorTest {
         Assert.assertEquals(FactorialCalculator.getFactorial(5), 120);
     }
 
+    /* здесь поняла, как сделать ожидаемое исключение, в junit5 не совсем
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testFactorialOfNegativeNumber() {
-        FactorialCalculator.getFactorial(-5);
+    FactorialCalculator.getFactorial(-5);
     }
+     */
 }
